@@ -1,0 +1,32 @@
+@charset "utf-8";
+main{
+    margin: 32px auto;
+    width: 320px;
+    
+}
+
+h1{
+    font-size: 20px;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    padding-bottom: 8px;
+}
+li{
+    cursor: pointer;
+}
+.correct{
+    color: green;
+    
+}
+.correct::after{
+   content: "-正解";
+}
+.wrong{
+    color:red;
+}
+.wrong::after{
+    content: "-不正解";}
+
+
+
+
